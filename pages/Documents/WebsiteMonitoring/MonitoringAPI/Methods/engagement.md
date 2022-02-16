@@ -26,6 +26,10 @@ Use this method to access the LivePerson monitoring system in order to retrieve 
 {:start="2"}
 2. Obtain the identifiers of an active conversation for this consumer, if one exists.
 
+### Domain
+
+Before calling the Monitoring API, you will need to fetch the Monitoring API domain, which is the domain for the "smt" service. Please refer to [this document](agent-domain-domain-api.html) for instructions on how to retrieve the "smt" service domain (aka 'baseURI')
+
 ### Request
 
 | Method | URL |
